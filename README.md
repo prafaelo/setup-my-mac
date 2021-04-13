@@ -2,6 +2,8 @@
  :apple: Commands to automatically configure my mac when I reset the OS x
 
 
-# (HomeBrew)[https://brew.sh/]
+## [HomeBrew](https://brew.sh/)
 
-    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```bash
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
