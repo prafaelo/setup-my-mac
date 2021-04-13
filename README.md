@@ -4,19 +4,19 @@
 
 ## [HomeBrew](https://brew.sh/)
 
-```bash
+```sh
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ## [OpenJDK hostspot VM - 16](https://github.com/AdoptOpenJDK/homebrew-openjdk)
 
-```bash
+```sh
 $ brew tap AdoptOpenJDK/openjdk
 $ brew search adoptopenjdk
 $ brew install --cask adoptopenjdk16
 $ java -version
 ```
 
-```bash
+```sh
 $ brew update
 ```
