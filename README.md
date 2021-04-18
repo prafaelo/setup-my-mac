@@ -17,6 +17,15 @@ $ brew install --cask adoptopenjdk16
 $ java -version
 ```
 
+
+## [VS Code](https://github.com/microsoft/vscode)
+
+```sh
+$ brew install --cask visual-studio-code
+```
+
+## Update
+
 ```sh
 $ brew update
 ```
