@@ -39,8 +39,13 @@ $ java -version
 $ brew install --cask visual-studio-code
 ```
 
-## Update
+## # homebrew usefull commands
 
 ```sh
-$ brew update
+# 
+$ brew help # // show all commands
+$ brew <command> help # // show the command help/usage
+$ brew update # // update to newest formula and homebrew
+$ brew doctor # // perform troubleshooting
+$ brew list # // List all installed formulae and casks
 ```
