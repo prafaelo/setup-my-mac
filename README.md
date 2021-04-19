@@ -8,6 +8,14 @@
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+```sh
+# // homebrew usefull commands
+$ brew help # // show useful commands
+$ brew update # // update to newest formula and homebrew
+$ brew doctor # // perform troubleshooting
+$ brew list -l # // list all installed formulae and casks
+```
+
 ## # [c](https://github.com/git/git)/[git](https://git-scm.com/)
 
 ```sh
@@ -34,18 +42,8 @@ $ brew install --cask adoptopenjdk16
 $ java -version
 ```
 
-## # [vscode](https://github.com/microsoft/vscode)
+## # [c](https://github.com/microsoft/vscode)/vscode
 
 ```sh
 $ brew install --cask visual-studio-code
-```
-
-## # homebrew usefull commands
-
-```sh
-# 
-$ brew help # // show useful commands
-$ brew update # // update to newest formula and homebrew
-$ brew doctor # // perform troubleshooting
-$ brew list -l # // list all installed formulae and casks
 ```
