@@ -12,6 +12,7 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 
 ```sh
 $ brew install git
+$ PATH=/usr/local/git/bin:$PATH
 ```
 
 ```sh
@@ -20,7 +21,7 @@ $ brew install --cask github
 ```
 
 
-## # Java
+## # java
 
 ```sh
 # // openjdk by AdoptOpenJDK and hostspot-vm
@@ -43,9 +44,8 @@ $ brew install --cask visual-studio-code
 
 ```sh
 # 
-$ brew help # // show all commands
-$ brew <command> help # // show the command help/usage
+$ brew help # // show useful commands
 $ brew update # // update to newest formula and homebrew
 $ brew doctor # // perform troubleshooting
-$ brew list # // List all installed formulae and casks
+$ brew list -l # // list all installed formulae and casks
 ```
