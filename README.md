@@ -21,7 +21,11 @@ $ brew list -l # // list all installed formulae and casks
 ```sh
 $ brew install git
 $ PATH=/usr/local/git/bin:$PATH
+
+git config --global user.name "prafaelo"
+# git config --global user.email "mail@mail.com"
 ```
+
 
 ```sh
 # Github Desktop, see https://github.com/desktop/desktop
