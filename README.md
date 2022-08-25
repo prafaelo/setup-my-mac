@@ -1,5 +1,13 @@
 # setup-my-mac
- :apple: Commands to automatically configure my mac when I reset the OS x
+ :apple: Commands to automatically configure my macOS when I reset it
+
+## # system 
+
+```sh
+sudo scutil --set ComputerName prafaelo.com
+sudo scutil --set LocalHostName prafaelo
+dscacheutil -flushcache
+```
 
 
 ## # [homebrew](https://brew.sh/)
@@ -16,7 +24,7 @@ $ brew doctor # // perform troubleshooting
 $ brew list -l # // list all installed formulae and casks
 ```
 
-## # [c](https://github.com/git/git)/[git](https://git-scm.com/)
+## # [git](https://github.com/prafaelo/refresh-git)
 
 ```sh
 $ brew install git
@@ -26,6 +34,7 @@ git config --global user.name "prafaelo"
 # git config --global user.email "mail@mail.com"
 ```
 
+## # [github desktop](https://github.com/desktop/desktop)
 
 ```sh
 # Github Desktop, see https://github.com/desktop/desktop
@@ -33,11 +42,11 @@ $ brew install --cask github
 ```
 
 
-## # java
+## # [java](https://github.com/AdoptOpenJDK/homebrew-openjdk)
 
 ```sh
 # // openjdk by AdoptOpenJDK and hostspot-vm
-# // See https://github.com/AdoptOpenJDK/homebrew-openjdk
+
 $ brew tap AdoptOpenJDK/openjdk
 $ brew search adoptopenjdk
 
@@ -46,8 +55,19 @@ $ brew install --cask adoptopenjdk16
 $ java -version
 ```
 
-## # [c](https://github.com/microsoft/vscode)/vscode
+## # [vscode](https://github.com/microsoft/vscode)
 
 ```sh
 $ brew install --cask visual-studio-code
 ```
+
+<!-- 
+
+Reference List:
+
+- https://git.herrbischoff.com/awesome-macos-command-line/about/
+
+- Apple macOS How-to guides, examples and more:
+https://ss64.com/osx/syntax.html
+
+-->
