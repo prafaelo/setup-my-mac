@@ -1,6 +1,11 @@
 # setup-my-mac
  :apple: Commands to automatically configure my mac when I reset the OS x
 
+## # System preferences
+```sh
+sudo scutil --set ComputerName prafaelo.com
+sudo scutil --set LocalHostName prafaelo
+```
 
 ## # [homebrew](https://brew.sh/)
 
@@ -16,7 +21,7 @@ $ brew doctor # // perform troubleshooting
 $ brew list -l # // list all installed formulae and casks
 ```
 
-## # [c](https://github.com/git/git)/[git](https://git-scm.com/)
+## # git [1](https://git-scm.com/),[2](https://github.com/git/git)
 
 ```sh
 $ brew install git
@@ -33,11 +38,11 @@ $ brew install --cask github
 ```
 
 
-## # java
+## # [java](https://github.com/AdoptOpenJDK/homebrew-openjdk)
 
 ```sh
 # // openjdk by AdoptOpenJDK and hostspot-vm
-# // See https://github.com/AdoptOpenJDK/homebrew-openjdk
+
 $ brew tap AdoptOpenJDK/openjdk
 $ brew search adoptopenjdk
 
@@ -46,7 +51,7 @@ $ brew install --cask adoptopenjdk16
 $ java -version
 ```
 
-## # [c](https://github.com/microsoft/vscode)/vscode
+## # [vscode](https://github.com/microsoft/vscode)
 
 ```sh
 $ brew install --cask visual-studio-code
