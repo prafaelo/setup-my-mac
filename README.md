@@ -76,6 +76,11 @@ java -version
 brew install --cask visual-studio-code
 ```
 
+```sh
+## Update default settings to my custom settings
+cd /Users/si/Library/Application\ Support/Code\ -\ Insiders/User/ && curl -O https://raw.githubusercontent.com/prafaelo/setup-my-mac/main/vscode/settings.json
+```
+
 <!-- 
 
 Reference List:
