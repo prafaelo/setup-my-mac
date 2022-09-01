@@ -13,7 +13,7 @@ dscacheutil -flushcache
 ## # [homebrew](https://brew.sh/)
 
 ```sh
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ```sh
@@ -22,6 +22,21 @@ $ brew help # // show useful commands
 $ brew update # // update to newest formula and homebrew
 $ brew doctor # // perform troubleshooting
 $ brew list -l # // list all installed formulae and casks
+```
+
+## # [vagrant](https://formulae.brew.sh/cask/vagrant)
+```sh
+brew install --cask vagrant
+
+vagrant version
+```
+
+## # [virtualbox](https://formulae.brew.sh/cask/virtualbox#default)
+```sh
+brew install --cask virtualbox
+
+# VBoxManage manual: https://www.virtualbox.org/manual/ch08.html
+VBoxManage -version
 ```
 
 ## # [git](https://github.com/prafaelo/refresh-git)
