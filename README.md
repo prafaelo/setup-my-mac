@@ -17,10 +17,10 @@ dscacheutil -flushcache
 
 ```sh
 # // homebrew usefull commands
-$ brew help # // show useful commands
-$ brew update # // update to newest formula and homebrew
-$ brew doctor # // perform troubleshooting
-$ brew list -l # // list all installed formulae and casks
+brew help # // show useful commands
+brew update # // update to newest formula and homebrew
+brew doctor # // perform troubleshooting
+brew list -l # // list all installed formulae and casks
 ```
 
 ## # [vagrant](https://formulae.brew.sh/cask/vagrant)
@@ -41,18 +41,19 @@ VBoxManage -version
 ## # git [1](https://git-scm.com/),[2](https://github.com/git/git)
 
 ```sh
-$ brew install git
-$ PATH=/usr/local/git/bin:$PATH
+brew install git
+PATH=/usr/local/git/bin:$PATH
 
 git config --global user.name "prafaelo"
-# git config --global user.email "mail@mail.com"
+git config --global user.email "prafaelo@icloud.com"
+git config -l #show all local git param
 ```
 
 ## # [github desktop](https://github.com/desktop/desktop)
 
 ```sh
 # Github Desktop, see https://github.com/desktop/desktop
-$ brew install --cask github
+brew install --cask github
 ```
 
 
@@ -61,18 +62,18 @@ $ brew install --cask github
 ```sh
 # // openjdk by AdoptOpenJDK and hostspot-vm
 
-$ brew tap AdoptOpenJDK/openjdk
-$ brew search adoptopenjdk
+brew tap AdoptOpenJDK/openjdk
+brew search adoptopenjdk
 
 # // Force install JDK 16
-$ brew install --cask adoptopenjdk16
-$ java -version
+brew install --cask adoptopenjdk16
+java -version
 ```
 
 ## # [vscode](https://github.com/microsoft/vscode)
 
 ```sh
-$ brew install --cask visual-studio-code
+brew install --cask visual-studio-code
 ```
 
 <!-- 
