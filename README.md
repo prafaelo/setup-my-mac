@@ -38,6 +38,11 @@ brew install --cask virtualbox
 VBoxManage -version
 ```
 
+## # [Microsoft Remote Desktop](https://formulae.brew.sh/cask/microsoft-remote-desktop#default)
+```sh
+brew install --cask microsoft-remote-desktop
+```
+
 ## # git [1](https://git-scm.com/),[2](https://github.com/git/git)
 
 ```sh
