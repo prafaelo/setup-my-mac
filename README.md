@@ -112,7 +112,13 @@ python3 -m pip install --upgrade setuptools # https://pypi.org/project/setuptool
 python3 -m pip install --upgrade pip # https://pip.pypa.io/en/stable/
 ```
 
+```sh
+## Python Packages
 
+pip3 install numpy # scientific computing: https://numpy.org/
+
+pip3 list
+```
 
 
 
