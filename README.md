@@ -96,3 +96,22 @@ Reference List:
 https://ss64.com/osx/syntax.html
 
 -->
+
+
+
+## # [Python3]([https://github.com/microsoft/vscode](https://www.python.org/downloads/)https://www.python.org/downloads/)
+
+```sh
+## From https://formulae.brew.sh/formula/python@3.11
+brew install python@3.11
+
+## Also https://docs.brew.sh/Homebrew-and-Python#python-3y
+## 
+python3 -m pip install --upgrade setuptools # https://pypi.org/project/setuptools/
+python3 -m pip install --upgrade pip # https://pip.pypa.io/en/stable/
+```
+
+
+
+
+
