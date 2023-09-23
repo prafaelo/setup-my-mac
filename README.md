@@ -109,13 +109,14 @@ brew install python@3.11
 ```sh
 ## Also https://docs.brew.sh/Homebrew-and-Python#python-3y
 python3 -m pip install --upgrade setuptools # https://pypi.org/project/setuptools/
-python3 -m pip install --upgrade pip # https://pip.pypa.io/en/stable/
+python3 -m pip install --upgrade pip        # https://pip.pypa.io/en/stable/
 ```
 
 ```sh
 ## Python Packages
 
-pip3 install numpy # scientific computing: https://numpy.org/
+pip3 install numpy       # scientific computing: https://numpy.org/
+pip3 install matplotlib. # draft data plots: https://matplotlib.org/
 
 pip3 list
 ```
