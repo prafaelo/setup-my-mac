@@ -116,7 +116,8 @@ python3 -m pip install --upgrade pip        # https://pip.pypa.io/en/stable/
 ## Python Packages
 
 pip3 install numpy       # scientific computing: https://numpy.org/
-pip3 install matplotlib. # draft data plots: https://matplotlib.org/
+pip3 install matplotlib  # draft data plots: https://matplotlib.org/
+pip3 install pandas      # data manipulation: https://pandas.pydata.org
 
 pip3 list
 ```
