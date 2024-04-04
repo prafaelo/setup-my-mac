@@ -1,7 +1,9 @@
 # setup-my-mac
- :apple: Commands to automatically configure my macOS when I reset it
+:apple: All kind of Useful macOS Commands & [Shortcuts](https://en.wikipedia.org/wiki/Shortcuts_(Apple)) 
+ 
+## Commands for automated macOS setup:
 
-## # system 
+### # system 
 
 ```sh
 sudo scutil --set ComputerName prafaelo.com
@@ -9,7 +11,7 @@ sudo scutil --set LocalHostName prafaelo
 dscacheutil -flushcache
 ```
 
-## # [homebrew](https://brew.sh/)
+### # [homebrew](https://brew.sh/)
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -23,14 +25,14 @@ brew doctor # // perform troubleshooting
 brew list -l # // list all installed formulae and casks
 ```
 
-## # [vagrant](https://formulae.brew.sh/cask/vagrant)
+### # [vagrant](https://formulae.brew.sh/cask/vagrant)
 ```sh
 brew install --cask vagrant
 
 vagrant version
 ```
 
-## # [virtualbox](https://formulae.brew.sh/cask/virtualbox#default)
+### # [virtualbox](https://formulae.brew.sh/cask/virtualbox#default)
 ```sh
 brew install --cask virtualbox
 
@@ -38,12 +40,12 @@ brew install --cask virtualbox
 VBoxManage -version
 ```
 
-## # [Microsoft Remote Desktop](https://formulae.brew.sh/cask/microsoft-remote-desktop#default)
+### # [Microsoft Remote Desktop](https://formulae.brew.sh/cask/microsoft-remote-desktop#default)
 ```sh
 brew install --cask microsoft-remote-desktop
 ```
 
-## # git [1](https://git-scm.com/),[2](https://github.com/git/git)
+### # git [1](https://git-scm.com/),[2](https://github.com/git/git)
 
 ```sh
 brew install git
@@ -54,7 +56,7 @@ git config --global user.email "prafaelo@icloud.com"
 git config -l #show all local git param
 ```
 
-## # [github desktop](https://github.com/desktop/desktop)
+### # [github desktop](https://github.com/desktop/desktop)
 
 ```sh
 # Github Desktop, see https://github.com/desktop/desktop
@@ -62,7 +64,7 @@ brew install --cask github
 ```
 
 
-## # [java](https://github.com/AdoptOpenJDK/homebrew-openjdk)
+### # [java](https://github.com/AdoptOpenJDK/homebrew-openjdk)
 
 ```sh
 # // openjdk by AdoptOpenJDK and hostspot-vm
@@ -75,7 +77,7 @@ brew install --cask adoptopenjdk16
 java -version
 ```
 
-## # [vscode](https://github.com/microsoft/vscode)
+### # [vscode](https://github.com/microsoft/vscode)
 
 ```sh
 brew install --cask visual-studio-code
@@ -99,7 +101,7 @@ https://ss64.com/osx/syntax.html
 
 
 
-## # [Python3](https://www.python.org/downloads/)
+### # [Python3](https://www.python.org/downloads/)
 
 ```sh
 ## From https://formulae.brew.sh/formula/python@3.11
