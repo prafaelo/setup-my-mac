@@ -1,9 +1,14 @@
 # setup-my-mac
 :apple: All kind of Useful macOS Commands & [Shortcuts](https://en.wikipedia.org/wiki/Shortcuts_(Apple)) 
  
-## Commands for automated macOS setup:
+- [macOS Keyboard Shortcuts](/docs/shortcuts.md)
+- [macOS Automated Setup Commands](#setup) <details>
+    - [system](#system)
+    - [homebrew](#homebrew)</details>
 
-### # system 
+## Commands for automated macOS setup <a name="setup"></a>
+
+### # system <a name="system"></a>
 
 ```sh
 sudo scutil --set ComputerName prafaelo.com
@@ -11,7 +16,7 @@ sudo scutil --set LocalHostName prafaelo
 dscacheutil -flushcache
 ```
 
-### # [homebrew](https://brew.sh/)
+### # [homebrew](https://brew.sh/) <a name="homebrew"></a>
 
 ```sh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
